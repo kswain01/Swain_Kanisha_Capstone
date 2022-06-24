@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Checkout"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="47.795">
+    <properties></properties>
+
+
+
+            <testcase
+                name="add_payment_test"
+                time="5.880"
+                classname="testcases.CheckoutTest">
+            </testcase>
+            <testcase
+                name="gift_card_test"
+                time="18.399"
+                classname="testcases.CheckoutTest">
+            </testcase>
+            <testcase
+                name="payment_mode_test"
+                time="18.333"
+                classname="testcases.CheckoutTest">
+            </testcase>
+            <testcase
+                name="field_blank_test"
+                time="5.183"
+                classname="testcases.CheckoutTest">
+            </testcase>
+</testsuite>

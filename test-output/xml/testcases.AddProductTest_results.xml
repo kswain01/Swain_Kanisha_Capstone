@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AddProduct"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="39.388">
+    <properties></properties>
+
+
+
+            <testcase
+                name="product_price_test"
+                time="5.070"
+                classname="testcases.AddProductTest">
+            </testcase>
+            <testcase
+                name="add_to_cart_test"
+                time="13.383"
+                classname="testcases.AddProductTest">
+            </testcase>
+            <testcase
+                name="remove_quantity_test"
+                time="6.453"
+                classname="testcases.AddProductTest">
+            </testcase>
+            <testcase
+                name="increase_quantity_test"
+                time="6.247"
+                classname="testcases.AddProductTest">
+            </testcase>
+            <testcase
+                name="refresh_page_test"
+                time="8.235"
+                classname="testcases.AddProductTest">
+            </testcase>
+</testsuite>

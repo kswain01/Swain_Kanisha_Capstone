@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Swain_Kanisha_ProjectName_CaseStudy"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="23.608">
+    <properties></properties>
+
+
+
+            <testcase
+                name="new_user_page_test"
+                time="12.111"
+                classname="testcases.RegistrationTest">
+            </testcase>
+            <testcase
+                name="email_validation_test"
+                time="11.497"
+                classname="testcases.RegistrationTest">
+            </testcase>
+</testsuite>
