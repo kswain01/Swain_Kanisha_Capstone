@@ -67,6 +67,7 @@ public class CheckoutTest {
     @Test(priority = 1)
     public void gift_card_test() throws InterruptedException, IOException {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        test =extent.createTest("gift_card_test", "Test Passed");
         productPage = new ProductPage(driver);
         productPage.clickOnProduct();
         productPage.clickOnColor();
@@ -81,6 +82,7 @@ public class CheckoutTest {
     }
     @Test(priority = 3)
     public void field_blank_test() throws InterruptedException, IOException {
+        test =extent.createTest("field_blank_test", "Test Passed");
         paymentPage = new PaymentPage(driver);
         paymentPage.clickPayNow();
 
@@ -90,6 +92,7 @@ public class CheckoutTest {
     }
     @Test(priority = 2)
     public void payment_mode_test() throws InterruptedException, IOException {
+        test =extent.createTest("payment_mode_test", "Test Passed");
         checkoutPage = new CheckoutPage(driver);
         Thread.sleep(300);
         checkoutPage.enterEmail();
@@ -107,6 +110,7 @@ public class CheckoutTest {
     }
     @Test(priority = 4)
     public void add_payment_test() throws InterruptedException, IOException {
+        test =extent.createTest("add_payment_test", "Test Passed");
         paymentPage = new PaymentPage(driver);
         paymentPage.enterCardNumber();
         driver.switchTo().parentFrame();

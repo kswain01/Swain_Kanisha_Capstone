@@ -4,19 +4,19 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="28.568">
+           time="27.220">
     <properties></properties>
 
 
 
             <testcase
-                name="search_product_test"
-                time="10.518"
+                name="click_on_search_test"
+                time="16.770"
                 classname="testcases.SearchTest">
             </testcase>
             <testcase
-                name="click_on_search_test"
-                time="18.050"
+                name="search_product_test"
+                time="10.450"
                 classname="testcases.SearchTest">
             </testcase>
 </testsuite>

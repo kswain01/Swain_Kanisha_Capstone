@@ -64,6 +64,7 @@ public class AddProductTest {
     }
     @Test(priority = 1)
     public void product_price_test() throws InterruptedException, IOException {
+        test =extent.createTest("product_price_test", "Test Passed");
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         productPage = new ProductPage(driver);
         productPage.clickOnProduct();
@@ -73,6 +74,7 @@ public class AddProductTest {
     }
     @Test(priority = 2)
     public void add_to_cart_test() throws InterruptedException, IOException {
+        test =extent.createTest("add_to_cart_test", "Test Passed");
         productPage = new ProductPage(driver);
         productPage.clickOnColor();
         productPage.clickOnSize();
@@ -84,6 +86,7 @@ public class AddProductTest {
     }
     @Test(priority = 3)
     public void refresh_page_test() throws InterruptedException, IOException {
+        test =extent.createTest("refresh_page_test", "Test Passed");
         productPage = new ProductPage(driver);
         driver.navigate().refresh();
         productPage.clickCart();
@@ -93,6 +96,7 @@ public class AddProductTest {
     }
     @Test(priority = 4)
     public void increase_quantity_test() throws InterruptedException, IOException {
+        test =extent.createTest("increase_quan_test", "Test Passed");
         cartPage = new CartPage(driver);
         cartPage.quantityIncrease();
         cartPage.clickUpdateCart();
@@ -102,6 +106,7 @@ public class AddProductTest {
     }
     @Test(priority = 5)
     public void remove_quantity_test() throws InterruptedException, IOException {
+        test =extent.createTest("remove_quan_test", "Test Passed");
         cartPage = new CartPage(driver);
         cartPage.quantityRemove();
         cartPage.clickUpdateCart();

@@ -4,34 +4,34 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="39.388">
+           time="39.022">
     <properties></properties>
 
 
 
             <testcase
                 name="product_price_test"
-                time="5.070"
-                classname="testcases.AddProductTest">
-            </testcase>
-            <testcase
-                name="add_to_cart_test"
-                time="13.383"
-                classname="testcases.AddProductTest">
-            </testcase>
-            <testcase
-                name="remove_quantity_test"
-                time="6.453"
-                classname="testcases.AddProductTest">
-            </testcase>
-            <testcase
-                name="increase_quantity_test"
-                time="6.247"
+                time="5.108"
                 classname="testcases.AddProductTest">
             </testcase>
             <testcase
                 name="refresh_page_test"
-                time="8.235"
+                time="8.187"
+                classname="testcases.AddProductTest">
+            </testcase>
+            <testcase
+                name="increase_quantity_test"
+                time="6.489"
+                classname="testcases.AddProductTest">
+            </testcase>
+            <testcase
+                name="remove_quantity_test"
+                time="6.312"
+                classname="testcases.AddProductTest">
+            </testcase>
+            <testcase
+                name="add_to_cart_test"
+                time="12.926"
                 classname="testcases.AddProductTest">
             </testcase>
 </testsuite>

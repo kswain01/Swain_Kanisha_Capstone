@@ -4,29 +4,29 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="47.795">
+           time="42.951">
     <properties></properties>
 
 
 
             <testcase
-                name="add_payment_test"
-                time="5.880"
+                name="gift_card_test"
+                time="18.546"
                 classname="testcases.CheckoutTest">
             </testcase>
             <testcase
-                name="gift_card_test"
-                time="18.399"
+                name="add_payment_test"
+                time="5.865"
                 classname="testcases.CheckoutTest">
             </testcase>
             <testcase
                 name="payment_mode_test"
-                time="18.333"
+                time="13.378"
                 classname="testcases.CheckoutTest">
             </testcase>
             <testcase
                 name="field_blank_test"
-                time="5.183"
+                time="5.162"
                 classname="testcases.CheckoutTest">
             </testcase>
 </testsuite>

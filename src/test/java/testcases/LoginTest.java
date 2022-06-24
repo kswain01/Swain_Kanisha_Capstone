@@ -64,6 +64,7 @@ public class LoginTest {
     @Test(priority = 1)
     public void wrong_email_test() throws InterruptedException, IOException {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        test =extent.createTest("wrong_email_test", "Test Passed");
         mainPage = new MainPage(driver);
         mainPage.clickAccountButton();
         loginPage = new LoginPage(driver);
@@ -80,6 +81,7 @@ public class LoginTest {
     }
     @Test(priority = 2)
     public void login_test() throws IOException, InterruptedException {
+        test =extent.createTest("login_test", "Test Passed");
         driver.get("https://www.alexandnova.com/account/login");
         loginPage = new LoginPage(driver);
         loginPage.enterEmail();

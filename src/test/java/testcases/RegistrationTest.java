@@ -90,7 +90,7 @@ public class RegistrationTest {
     }
    @Test(priority = 3)
     public void email_validation_test() throws InterruptedException, IOException {
-       test =extent.createTest("email_validation_test", "Test Passed");
+       test =extent.createTest("email_validation_test", "Test Failed");
        driver.get("https://www.alexandnova.com/account/register");
 
         registerPage = new RegisterPage(driver);
@@ -118,7 +118,7 @@ public class RegistrationTest {
     }
     @Test(priority = 4)
     public void password_test() throws InterruptedException, IOException {
-        test =extent.createTest("password_test", "Test Passed");
+        test =extent.createTest("password_test", "Test Failed");
         driver.get("https://www.alexandnova.com/account/register");
 
         registerPage = new RegisterPage(driver);

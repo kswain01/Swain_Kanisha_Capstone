@@ -4,12 +4,12 @@
            failures="2"
            errors="0"
            skipped="0"
-           time="138.921">
+           time="148.582">
     <properties></properties>
 
             <testcase
                 name="password_test"
-                time="22.066"
+                time="31.449"
                 classname="testcases.RegistrationTest">
 
             <failure type="java.lang.NullPointerException" message="(null)">
@@ -20,7 +20,7 @@
     </testcase>
             <testcase
                 name="email_validation_test"
-                time="31.533"
+                time="31.543"
                 classname="testcases.RegistrationTest">
 
             <failure type="java.lang.NullPointerException" message="(null)">
@@ -32,18 +32,18 @@
 
 
             <testcase
-                name="new_user_page_test"
-                time="32.591"
+                name="mandatory_field_test"
+                time="21.481"
                 classname="testcases.RegistrationTest">
             </testcase>
             <testcase
-                name="mandatory_field_test"
-                time="21.349"
+                name="new_user_page_test"
+                time="32.600"
                 classname="testcases.RegistrationTest">
             </testcase>
             <testcase
                 name="register_new_user_test"
-                time="31.382"
+                time="31.509"
                 classname="testcases.RegistrationTest">
             </testcase>
 </testsuite>
